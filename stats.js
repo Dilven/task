@@ -1,8 +1,8 @@
 const getAverage = (data, isForEachDay) => {
 
   if(!isForEachDay) {
-    let total = data.reduce((previousValue, currentValue) => {
-      return previousValue + currentValue.visits;
+    let total = data.reduce((acc, day) => {
+      return acc + day.visits;
     }, 0);
   
     const numberDays = data.length;
