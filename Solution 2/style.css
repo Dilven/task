@@ -16,7 +16,7 @@
   border: 1px solid #f3c6b5;
 }
 
-.wrapper span:nth-of-type(even) {
+.wrapper .text-block:nth-of-type(even) {
   background-color: #e8f6ff;
   border: 1px solid #b1c1e4;
 }
